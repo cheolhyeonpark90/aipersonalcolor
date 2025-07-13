@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aipersonalcolor.pages.dev/sitemap.xml
