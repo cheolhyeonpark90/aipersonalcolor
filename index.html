@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 퍼스널 컬러 진단기</title>
+    <!-- Pretendard 웹폰트 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="container mx-auto px-4 py-5 flex justify-between items-center border-b border-gray-200">
+        <h1 class="text-2xl font-bold">AI 퍼스널 컬러 진단기</h1>
+        <nav class="hidden md:flex items-center space-x-6 text-gray-600 font-medium">
+            <a href="#" class="hover:text-indigo-600">소개</a>
+            <a href="#" class="hover:text-indigo-600">이용안내</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-slate-50">
+            <div class="container mx-auto px-4 py-24 text-center">
+                <h2 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">
+                    <span class="bg-gradient-to-r from-indigo-500 to-sky-500 bg-clip-text text-transparent">3초 만에 찾는</span><br>내 진짜 컬러
+                </h2>
+                <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">AI 딥러닝이 찾아주는 가장 정확한 퍼스널 컬러 진단. 당신의 사진 한 장이면 충분해요.</p>
+                <button id="uploadButton" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-10 rounded-xl text-lg transition-transform duration-200 hover:scale-105 shadow-lg">
+                    사진 업로드하고 시작하기
+                </button>
+                <input type="file" id="fileUpload" accept="image/*" class="hidden">
+                <div class="mt-6 flex justify-center space-x-6 text-gray-500">
+                    <span>✓ 제로저장</span>
+                    <span>✓ 제로로그인</span>
+                    <span>✓ AI분석</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading Spinner (숨겨진 상태) -->
+        <div id="loadingSpinner" class="hidden fixed inset-0 bg-white bg-opacity-80 flex-col justify-center items-center z-50">
+            <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-indigo-500"></div>
+            <p id="loadingMessage" class="mt-4 text-lg font-semibold text-gray-700">모델을 로딩하고 있습니다...</p>
+        </div>
+
+
+        <!-- Result Section (분석 후 보여질 영역) -->
+        <section id="resultSection" class="py-20 hidden">
+            <!-- 결과 내용은 JS로 동적으로 채워집니다. -->
+        </section>
+
+
+        <!-- How To Section -->
+        <section id="howToSection" class="py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-16">간단한 이용 방법</h2>
+                <div class="grid md:grid-cols-3 gap-12">
+                    <div class="step">
+                        <div class="text-6xl mb-4">↑</div>
+                        <h3 class="text-2xl font-bold mb-2">1. 업로드</h3>
+                        <p class="text-gray-600">화장기 없는 정면 사진을<br>업로드 해주세요.</p>
+                    </div>
+                    <div class="step">
+                        <div class="text-6xl mb-4">☺</div>
+                        <h3 class="text-2xl font-bold mb-2">2. AI 분석</h3>
+                        <p class="text-gray-600">AI가 피부, 헤어, 눈동자 색을<br>정밀하게 분석해요.</p>
+                    </div>
+                    <div class="step">
+                        <div class="text-6xl mb-4">→</div>
+                        <h3 class="text-2xl font-bold mb-2">3. 공유하기</h3>
+                        <p class="text-gray-600">결과를 저장하고 친구들에게<br>쉽게 공유할 수 있어요.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300">
+        <div class="container mx-auto px-4 py-10">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div>
+                    <p class="font-bold text-lg">AI 퍼스널 컬러 진단기</p>
+                    <p class="text-sm mt-1 text-gray-400">© 2024 Your Company. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript 파일 연결 -->
+    <script src="/src/script.js" type="module"></script>
+</body>
+</html>

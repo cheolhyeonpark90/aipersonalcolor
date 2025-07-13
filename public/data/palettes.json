@@ -1,0 +1,266 @@
+{
+    "spring_bright": {
+      "id": "spring_bright",
+      "season_ko": "봄 웜톤",
+      "name_ko": "봄 브라이트",
+      "name_en": "Bright Spring",
+      "characteristics": { "dominant": "Bright", "secondary": "Warm" },
+      "keywords_ko": ["과즙미", "생기발랄", "화사함", "선명함", "에너제틱"],
+      "description_ko": "봄의 따뜻함과 겨울의 선명함을 동시에 가진 타입. 채도 높은 비비드 컬러를 가장 잘 소화하며, 생기 넘치고 화사한 '과즙상' 이미지가 특징입니다. 대비감이 강한 스타일링이 잘 어울립니다.",
+      "palette": [
+        { "name_ko": "클리어 코랄", "name_en": "Clear Coral", "hex": "#FF6F61", "rgb": [255, 111, 97], "lab": [61.13, 67.81, 47.92], "category": "point" },
+        { "name_ko": "오렌지", "name_en": "Orange", "hex": "#FF8247", "rgb": [255, 130, 71], "lab": [71.14, 46.03, 56.17], "category": "point" },
+        { "name_ko": "선명한 옐로우", "name_en": "Vivid Yellow", "hex": "#FFB800", "rgb": [255, 184, 0], "lab": [78.99, 21.11, 82.93], "category": "point" },
+        { "name_ko": "라임 그린", "name_en": "Lime Green", "hex": "#95B734", "rgb": [149, 183, 52], "lab": [70.58, -27.67, 62.15], "category": "point" },
+        { "name_ko": "터콰이즈", "name_en": "Turquoise", "hex": "#00AEEF", "rgb": [0, 174, 239], "lab": [67.8, -19.46, -42.24], "category": "point" },
+        { "name_ko": "아이보리", "name_en": "Ivory", "hex": "#FFF8DC", "rgb": [255, 248, 220], "lab": [97.23, -0.52, 13.93], "category": "base" },
+        { "name_ko": "웜 베이지", "name_en": "Warm Beige", "hex": "#F5DEB3", "rgb": [245, 222, 179], "lab": [89.1, 2.9, 25.9], "category": "base" },
+        { "name_ko": "웜 브라운", "name_en": "Warm Brown", "hex": "#4A412A", "rgb": [74, 65, 42], "lab": [28.23, 0.43, 13.88], "category": "base" },
+        { "name_ko": "쿨 그레이", "name_en": "Cool Gray", "hex": "#6C7B8B", "rgb": [108, 123, 139], "lab": [50.75, -4.13, -11.02], "category": "worst" },
+        { "name_ko": "탁한 올리브", "name_en": "Muted Olive", "hex": "#BDB76B", "rgb": [189, 183, 107], "lab": [73.5, -10.03, 41.2], "category": "worst" }
+      ]
+    },
+  
+    "spring_light": {
+      "id": "spring_light",
+      "season_ko": "봄 웜톤",
+      "name_ko": "봄 라이트",
+      "name_en": "Light Spring",
+      "characteristics": { "dominant": "Light", "secondary": "Warm" },
+      "keywords_ko": ["청순", "여리여리", "투명함", "사랑스러움", "파스텔"],
+      "description_ko": "맑고 생기 있는 피부톤이 장점이며, 순하고 부드러운 이미지를 가집니다. 흰 기가 많이 도는 고명도, 저채도의 파스텔 컬러가 가장 잘 어울립니다. 진한 색조나 어두운 음영 화장은 피하는 것이 좋습니다.",
+      "palette": [
+        { "name_ko": "소프트 피치", "name_en": "Soft Peach", "hex": "#FFBFA9", "rgb": [255, 191, 169], "lab": [82.5, 23.97, 4.44], "category": "point" },
+        { "name_ko": "피치", "name_en": "Peach", "hex": "#FFDAB9", "rgb": [255, 218, 185], "lab": [88.93, 10.37, 24.88], "category": "point" },
+        { "name_ko": "레몬 쉬폰", "name_en": "Lemon Chiffon", "hex": "#FFFACD", "rgb": [255, 250, 205], "lab": [97.5, -3.1, 22.33], "category": "point" },
+        { "name_ko": "페일 터콰이즈", "name_en": "Pale Turquoise", "hex": "#AFEEEE", "rgb": [175, 238, 238], "lab": [89.4, -20.69, -7.13], "category": "point" },
+        { "name_ko": "라벤더", "name_en": "Lavender", "hex": "#E6E6FA", "rgb": [230, 230, 250], "lab": [91.41, 2.3, -9.93], "category": "point" },
+        { "name_ko": "크림", "name_en": "Cream", "hex": "#FAF0E6", "rgb": [250, 240, 230], "lab": [94.9, 2.37, 7.63], "category": "base" },
+        { "name_ko": "라이트 베이지", "name_en": "Light Beige", "hex": "#D2B48C", "rgb": [210, 180, 140], "lab": [74.95, 6.2, 26.91], "category": "base" },
+        { "name_ko": "라이트 그레이", "name_en": "Light Gray", "hex": "#B0C4DE", "rgb": [176, 196, 222], "lab": [78.2, -4.3, -15.2], "category": "base" },
+        { "name_ko": "블랙", "name_en": "Black", "hex": "#000000", "rgb": [0, 0, 0], "lab": [0, 0, 0], "category": "worst" },
+        { "name_ko": "버건디", "name_en": "Burgundy", "hex": "#A52A2A", "rgb": [165, 42, 42], "lab": [38.31, 49.03, 35.8], "category": "worst" }
+      ]
+    },
+  
+    "spring_true": {
+      "id": "spring_true",
+      "season_ko": "봄 웜톤",
+      "name_ko": "봄 웜 (트루)",
+      "name_en": "True Spring",
+      "characteristics": { "dominant": "Warm", "secondary": "Bright" },
+      "keywords_ko": ["따스함", "화사함", "정석적인 봄", "생기", "과즙미"],
+      "description_ko": "봄 타입 중 가장 순수하고 따뜻한 특성을 지닌 '봄의 정석'입니다. 모든 색상에 명확한 노란색 기반의 따뜻함이 느껴지며, 신선하고 활기찬 이미지를 연출합니다.",
+      "palette": [
+        { "name_ko": "코랄", "name_en": "Coral", "hex": "#FF7F50", "rgb": [255, 127, 80], "lab": [69.47, 46.9, 48.3], "category": "point" },
+        { "name_ko": "피치 오렌지", "name_en": "Peach Orange", "hex": "#F4A772", "rgb": [244, 167, 114], "lab": [74.3, 25.0, 43.1], "category": "point" },
+        { "name_ko": "버터컵 옐로우", "name_en": "Buttercup Yellow", "hex": "#FDD835", "rgb": [253, 216, 53], "lab": [86.5, 2.9, 76.8], "category": "point" },
+        { "name_ko": "터콰이즈", "name_en": "Turquoise", "hex": "#40E0D0", "rgb": [64, 224, 208], "lab": [82.0, -43.0, 2.0], "category": "point" },
+        { "name_ko": "켈리 그린", "name_en": "Kelly Green", "hex": "#7CFC00", "rgb": [124, 252, 0], "lab": [87.0, -79.0, 81.0], "category": "point" },
+        { "name_ko": "크림", "name_en": "Cream", "hex": "#FFFDD0", "rgb": [255, 253, 208], "lab": [98.5, -3.0, 20.0], "category": "base" },
+        { "name_ko": "카멜", "name_en": "Camel", "hex": "#C8A165", "rgb": [200, 161, 101], "lab": [68.0, 8.0, 38.0], "category": "base" },
+        { "name_ko": "웜 네이비", "name_en": "Warm Navy", "hex": "#007BA7", "rgb": [0, 123, 167], "lab": [49.0, -15.0, -32.0], "category": "base" },
+        { "name_ko": "쿨 그레이", "name_en": "Cool Gray", "hex": "#808080", "rgb": [128, 128, 128], "lab": [53.4, 0.0, 0.0], "category": "worst" },
+        { "name_ko": "마젠타", "name_en": "Magenta", "hex": "#FF00FF", "rgb": [255, 0, 255], "lab": [60.3, 98.2, -60.8], "category": "worst" }
+      ]
+    },
+  
+    "summer_light": {
+      "id": "summer_light",
+      "season_ko": "여름 쿨톤",
+      "name_ko": "여름 라이트",
+      "name_en": "Light Summer",
+      "characteristics": { "dominant": "Light", "secondary": "Cool" },
+      "keywords_ko": ["맑음", "깨끗함", "청량함", "청순", "파스텔"],
+      "description_ko": "여름 타입 중 가장 밝고 화사한 톤입니다. 흰색이 많이 섞인 고명도, 저채도의 파스텔 컬러가 잘 어울리며, 맑고 깨끗한 이미지를 연출합니다. 봄 라이트보다 더 시원하고 청량한 느낌을 줍니다.",
+      "palette": [
+        { "name_ko": "소프트 핑크", "name_en": "Soft Pink", "hex": "#FDEEF4", "rgb": [253, 238, 244], "lab": [90.8, 12.8, -5.8], "category": "point" },
+        { "name_ko": "파우더 블루", "name_en": "Powder Blue", "hex": "#B0E0E6", "rgb": [176, 224, 230], "lab": [86.5, -15.5, -9.5], "category": "point" },
+        { "name_ko": "라이트 라벤더", "name_en": "Light Lavender", "hex": "#D8BFD8", "rgb": [216, 191, 216], "lab": [79.5, 11.5, -8.5], "category": "point" },
+        { "name_ko": "페일 민트", "name_en": "Pale Mint", "hex": "#98FB98", "rgb": [152, 251, 152], "lab": [91.0, -48.0, 38.0], "category": "point" },
+        { "name_ko": "소프트 화이트", "name_en": "Soft White", "hex": "#F5F5F5", "rgb": [245, 245, 245], "lab": [96.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "라이트 그레이", "name_en": "Light Gray", "hex": "#DCDCDC", "rgb": [220, 220, 220], "lab": [87.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "소라색", "name_en": "Sky Blue", "hex": "#ADD8E6", "rgb": [173, 216, 230], "lab": [84.0, -9.0, -14.0], "category": "base" },
+        { "name_ko": "오렌지", "name_en": "Orange", "hex": "#FFA500", "rgb": [255, 165, 0], "lab": [75.0, 24.0, 79.0], "category": "worst" },
+        { "name_ko": "브라운", "name_en": "Brown", "hex": "#A0522D", "rgb": [160, 82, 45], "lab": [43.0, 28.0, 36.0], "category": "worst" },
+        { "name_ko": "카키", "name_en": "Khaki", "hex": "#556B2F", "rgb": [85, 107, 47], "lab": [43.0, -15.0, 29.0], "category": "worst" }
+      ]
+    },
+  
+    "summer_mute": {
+      "id": "summer_mute",
+      "season_ko": "여름 쿨톤",
+      "name_ko": "여름 뮤트",
+      "name_en": "Summer Mute",
+      "characteristics": { "dominant": "Muted", "secondary": "Cool" },
+      "keywords_ko": ["차분함", "지적임", "우아함", "분위기", "오묘함"],
+      "description_ko": "회색 기운이 도는 차분한 컬러가 특징입니다. 채도가 낮고 명도는 중간에서 낮은 편이며, 지적이고 우아한 분위기를 자아냅니다. 가을 뮤트와 색상을 공유하지만 더 차가운 베이스를 가집니다.",
+      "palette": [
+        { "name_ko": "모브 로즈", "name_en": "Mauve Rose", "hex": "#B1777A", "rgb": [177, 119, 122], "lab": [58.0, 24.0, 6.0], "category": "point" },
+        { "name_ko": "더스티 핑크", "name_en": "Dusty Pink", "hex": "#B4A0A8", "rgb": [180, 160, 168], "lab": [68.0, 7.0, -3.0], "category": "point" },
+        { "name_ko": "더스티 블루", "name_en": "Dusty Blue", "hex": "#93A1A1", "rgb": [147, 161, 161], "lab": [65.0, -6.0, -3.0], "category": "point" },
+        { "name_ko": "세이지 그린", "name_en": "Sage Green", "hex": "#8F9779", "rgb": [143, 151, 121], "lab": [61.0, -8.0, 13.0], "category": "point" },
+        { "name_ko": "크림", "name_en": "Cream", "hex": "#E0D2C8", "rgb": [224, 210, 200], "lab": [85.0, 4.0, 7.0], "category": "base" },
+        { "name_ko": "그레이", "name_en": "Gray", "hex": "#A9A9A9", "rgb": [169, 169, 169], "lab": [69.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "슬레이트 그레이", "name_en": "Slate Gray", "hex": "#708090", "rgb": [112, 128, 144], "lab": [54.0, -5.0, -10.0], "category": "base" },
+        { "name_ko": "비비드 오렌지", "name_en": "Vivid Orange", "hex": "#FF4500", "rgb": [255, 69, 0], "lab": [59.0, 68.0, 67.0], "category": "worst" },
+        { "name_ko": "비비드 옐로우", "name_en": "Vivid Yellow", "hex": "#FFFF00", "rgb": [255, 255, 0], "lab": [97.0, -22.0, 95.0], "category": "worst" },
+        { "name_ko": "웜 브라운", "name_en": "Warm Brown", "hex": "#8B4513", "rgb": [139, 69, 19], "lab": [36.0, 26.0, 40.0], "category": "worst" }
+      ]
+    },
+  
+    "summer_true": {
+      "id": "summer_true",
+      "season_ko": "여름 쿨톤",
+      "name_ko": "여름 쿨 (트루)",
+      "name_en": "True Summer",
+      "characteristics": { "dominant": "Cool", "secondary": "Muted" },
+      "keywords_ko": ["시원함", "부드러움", "정석적인 여름", "우아함", "깨끗함"],
+      "description_ko": "여름 타입 중 가장 순수하게 차가운 특성을 지녔으며, 따뜻한 기운이 전혀 없습니다. 안개가 낀 듯 부드럽고 파우더리한 질감이 느껴지며, 우아하고 차분한 인상을 줍니다.",
+      "palette": [
+        { "name_ko": "루비 핑크", "name_en": "Ruby Pink", "hex": "#C74375", "rgb": [199, 67, 117], "lab": [54.0, 52.0, 33.0], "category": "point" },
+        { "name_ko": "스카이 블루", "name_en": "Sky Blue", "hex": "#7ECBE6", "rgb": [126, 203, 230], "lab": [79.0, -20.0, -18.0], "category": "point" },
+        { "name_ko": "유니언 블루", "name_en": "Union Blue", "hex": "#5B8DF0", "rgb": [91, 141, 240], "lab": [60.0, 10.0, -52.0], "category": "point" },
+        { "name_ko": "라벤더", "name_en": "Lavender", "hex": "#B19CD9", "rgb": [177, 156, 217], "lab": [67.0, 18.0, -29.0], "category": "point" },
+        { "name_ko": "앨리스 블루", "name_en": "Alice Blue", "hex": "#F0F8FF", "rgb": [240, 248, 255], "lab": [97.0, -1.0, -5.0], "category": "base" },
+        { "name_ko": "슬레이트 그레이", "name_en": "Slate Gray", "hex": "#778899", "rgb": [119, 136, 153], "lab": [56.0, -5.0, -10.0], "category": "base" },
+        { "name_ko": "스틸 블루", "name_en": "Steel Blue", "hex": "#4682B4", "rgb": [70, 130, 180], "lab": [54.0, -8.0, -30.0], "category": "base" },
+        { "name_ko": "골든 옐로우", "name_en": "Golden Yellow", "hex": "#FFC862", "rgb": [255, 200, 98], "lab": [82.0, 12.0, 57.0], "category": "worst" },
+        { "name_ko": "웜 오렌지", "name_en": "Warm Orange", "hex": "#EC8844", "rgb": [236, 136, 68], "lab": [66.0, 36.0, 54.0], "category": "worst" },
+        { "name_ko": "트루 블랙", "name_en": "True Black", "hex": "#000000", "rgb": [0, 0, 0], "lab": [0.0, 0.0, 0.0], "category": "worst" }
+      ]
+    },
+  
+    "autumn_mute": {
+      "id": "autumn_mute",
+      "season_ko": "가을 웜톤",
+      "name_ko": "가을 뮤트",
+      "name_en": "Soft Autumn",
+      "characteristics": { "dominant": "Muted", "secondary": "Warm" },
+      "keywords_ko": ["부드러움", "분위기 있음", "내추럴함", "차분함", "고급스러움"],
+      "description_ko": "가을 타입 중 가장 부드럽고 채도가 낮으며, 여름의 영향을 받아 차분함이 더해졌습니다. 회색이 섞인 따뜻하고 더스티한 컬러들이 주를 이루며, 우아하고 차분한 이미지를 연출합니다.",
+      "palette": [
+        { "name_ko": "브릭 오렌지", "name_en": "Brick Orange", "hex": "#D99167", "rgb": [217, 145, 103], "lab": [72.0, 24.0, 36.0], "category": "point" },
+        { "name_ko": "더스티 로즈", "name_en": "Dusty Rose", "hex": "#BF6B6B", "rgb": [191, 107, 107], "lab": [53.0, 33.0, 19.0], "category": "point" },
+        { "name_ko": "로럴 그린", "name_en": "Laurel Green", "hex": "#BDBFA0", "rgb": [189, 191, 160], "lab": [76.0, -5.0, 15.0], "category": "point" },
+        { "name_ko": "올리브", "name_en": "Olive", "hex": "#A6A377", "rgb": [166, 163, 119], "lab": [66.0, -7.0, 24.0], "category": "point" },
+        { "name_ko": "카라멜", "name_en": "Caramel", "hex": "#F6D294", "rgb": [246, 210, 148], "lab": [85.0, 5.0, 36.0], "category": "base" },
+        { "name_ko": "토프", "name_en": "Taupe", "hex": "#D8B599", "rgb": [216, 181, 153], "lab": [76.0, 9.0, 21.0], "category": "base" },
+        { "name_ko": "웜 그레이", "name_en": "Warm Gray", "hex": "#8C8074", "rgb": [140, 128, 116], "lab": [54.0, 3.0, 8.0], "category": "base" },
+        { "name_ko": "비비드 블루", "name_en": "Vivid Blue", "hex": "#00BFFF", "rgb": [0, 191, 255], "lab": [73.0, -21.0, -49.0], "category": "worst" },
+        { "name_ko": "핫 핑크", "name_en": "Hot Pink", "hex": "#FF1493", "rgb": [255, 20, 147], "lab": [57.0, 87.0, -7.0], "category": "worst" },
+        { "name_ko": "퓨어 화이트", "name_en": "Pure White", "hex": "#FFFFFF", "rgb": [255, 255, 255], "lab": [100.0, 0.0, 0.0], "category": "worst" }
+      ]
+    },
+  
+    "autumn_deep": {
+      "id": "autumn_deep",
+      "season_ko": "가을 웜톤",
+      "name_ko": "가을 딥",
+      "name_en": "Deep Autumn",
+      "characteristics": { "dominant": "Deep", "secondary": "Warm" },
+      "keywords_ko": ["깊이감", "성숙함", "고혹적임", "섹시함", "화려함"],
+      "description_ko": "가을 타입 중 가장 깊고 어두운 톤입니다. 저명도의 진하고 풍부한 컬러들이 잘 어울리며, 화려하고 섹시한 분위기를 연출합니다. 블랙에 가까운 어두운 색상까지 소화 가능합니다.",
+      "palette": [
+        { "name_ko": "다크 앤틱 브론즈", "name_en": "Dark Antique Bronze", "hex": "#5A3721", "rgb": [90, 55, 33], "lab": [29.0, 52.0, 42.0], "category": "point" },
+        { "name_ko": "번트 오렌지", "name_en": "Burnt Orange", "hex": "#D2691E", "rgb": [210, 105, 30], "lab": [53.0, 38.0, 54.0], "category": "point" },
+        { "name_ko": "올리브 그린", "name_en": "Olive Green", "hex": "#556B2F", "rgb": [85, 107, 47], "lab": [43.0, -15.0, 29.0], "category": "point" },
+        { "name_ko": "머스타드", "name_en": "Mustard", "hex": "#A78851", "rgb": [167, 136, 81], "lab": [58.0, 4.0, 34.0], "category": "point" },
+        { "name_ko": "다크 틸", "name_en": "Dark Teal", "hex": "#2F4F4F", "rgb": [47, 79, 79], "lab": [32.0, -10.0, -5.0], "category": "point" },
+        { "name_ko": "커피 브라운", "name_en": "Coffee Brown", "hex": "#6F4E37", "rgb": [111, 78, 55], "lab": [36.0, 11.0, 20.0], "category": "base" },
+        { "name_ko": "웜 아이보리", "name_en": "Warm Ivory", "hex": "#F5F5DC", "rgb": [245, 245, 220], "lab": [95.0, -2.0, 11.0], "category": "base" },
+        { "name_ko": "초콜릿", "name_en": "Chocolate", "hex": "#4A1B1F", "rgb": [74, 27, 31], "lab": [16.0, 21.0, 11.0], "category": "base" },
+        { "name_ko": "라이트 라벤더", "name_en": "Light Lavender", "hex": "#E6E6FA", "rgb": [230, 230, 250], "lab": [91.0, 2.0, -10.0], "category": "worst" },
+        { "name_ko": "라이트 블루", "name_en": "Light Blue", "hex": "#ADD8E6", "rgb": [173, 216, 230], "lab": [84.0, -9.0, -14.0], "category": "worst" }
+      ]
+    },
+  
+    "autumn_true": {
+      "id": "autumn_true",
+      "season_ko": "가을 웜톤",
+      "name_ko": "가을 웜 (트루)",
+      "name_en": "True Autumn",
+      "characteristics": { "dominant": "Warm", "secondary": "Muted" },
+      "keywords_ko": ["풍요로움", "따스함", "정석적인 가을", "깊이감", "차분함"],
+      "description_ko": "가을 타입 중 가장 순수하게 따뜻한 특성을 지녔습니다. 황금빛으로 물든 단풍처럼 풍요롭고 깊은 색들로 가득하며, 모든 색상에 노란빛이 강하게 돌아 따뜻하고 아늑한 분위기를 자아냅니다.",
+      "palette": [
+        { "name_ko": "브릭 레드", "name_en": "Brick Red", "hex": "#96473B", "rgb": [150, 71, 59], "lab": [48.0, 39.0, 37.0], "category": "point" },
+        { "name_ko": "머스타드 옐로우", "name_en": "Mustard Yellow", "hex": "#E0AB3D", "rgb": [224, 171, 61], "lab": [72.0, 12.0, 60.0], "category": "point" },
+        { "name_ko": "모스 그린", "name_en": "Moss Green", "hex": "#8ABF67", "rgb": [138, 191, 103], "lab": [73.0, -30.0, 39.0], "category": "point" },
+        { "name_ko": "틸 블루", "name_en": "Teal Blue", "hex": "#4C9150", "rgb": [76, 145, 80], "lab": [55.0, -31.0, 26.0], "category": "point" },
+        { "name_ko": "살몬", "name_en": "Salmon", "hex": "#F5BC62", "rgb": [245, 188, 98], "lab": [78.0, 13.0, 53.0], "category": "point" },
+        { "name_ko": "웜 아이보리", "name_en": "Warm Ivory", "hex": "#F0DC71", "rgb": [240, 220, 113], "lab": [87.0, -1.0, 51.0], "category": "base" },
+        { "name_ko": "로우 시에나", "name_en": "Raw Sienna", "hex": "#A36F58", "rgb": [163, 111, 88], "lab": [51.0, 18.0, 23.0], "category": "base" },
+        { "name_ko": "인디펜던스", "name_en": "Independence", "hex": "#425570", "rgb": [66, 85, 112], "lab": [36.0, -3.0, -18.0], "category": "base" },
+        { "name_ko": "트루 블루", "name_en": "True Blue", "hex": "#0000FF", "rgb": [0, 0, 255], "lab": [32.0, 79.0, -108.0], "category": "worst" },
+        { "name_ko": "푸시아", "name_en": "Fuchsia", "hex": "#FF00FF", "rgb": [255, 0, 255], "lab": [60.0, 98.0, -61.0], "category": "worst" }
+      ]
+    },
+  
+    "winter_bright": {
+      "id": "winter_bright",
+      "season_ko": "겨울 쿨톤",
+      "name_ko": "겨울 브라이트",
+      "name_en": "Bright Winter",
+      "characteristics": { "dominant": "Bright", "secondary": "Cool" },
+      "keywords_ko": ["화려함", "도시적임", "카리스마", "쨍함", "선명함"],
+      "description_ko": "겨울 타입 중 가장 채도가 높고 화려한 타입입니다. 형광펜처럼 쨍한 고채도의 원색을 가장 잘 소화하며, 선명한 대비감이 필수적입니다. 포인트 메이크업 없이는 창백해 보일 수 있습니다.",
+      "palette": [
+        { "name_ko": "핫 핑크", "name_en": "Hot Pink", "hex": "#FF007F", "rgb": [255, 0, 127], "lab": [57.0, 87.0, 1.0], "category": "point" },
+        { "name_ko": "트루 레드", "name_en": "True Red", "hex": "#E6404C", "rgb": [230, 64, 76], "lab": [55.0, 64.0, 42.0], "category": "point" },
+        { "name_ko": "레몬 옐로우", "name_en": "Lemon Yellow", "hex": "#FDC519", "rgb": [253, 197, 25], "lab": [81.0, 11.0, 83.0], "category": "point" },
+        { "name_ko": "코발트 블루", "name_en": "Cobalt Blue", "hex": "#104BA4", "rgb": [16, 75, 164], "lab": [34.0, 20.0, -57.0], "category": "point" },
+        { "name_ko": "일렉트릭 그린", "name_en": "Electric Green", "hex": "#00FF00", "rgb": [0, 255, 0], "lab": [88.0, -86.0, 83.0], "category": "point" },
+        { "name_ko": "퓨어 화이트", "name_en": "Pure White", "hex": "#FFFFFF", "rgb": [255, 255, 255], "lab": [100.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "트루 블랙", "name_en": "True Black", "hex": "#000000", "rgb": [0, 0, 0], "lab": [0.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "미디엄 그레이", "name_en": "Medium Gray", "hex": "#808080", "rgb": [128, 128, 128], "lab": [53.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "웜 베이지", "name_en": "Warm Beige", "hex": "#F4A460", "rgb": [244, 164, 96], "lab": [73.0, 27.0, 49.0], "category": "worst" },
+        { "name_ko": "올리브", "name_en": "Olive", "hex": "#808000", "rgb": [128, 128, 0], "lab": [54.0, -17.0, 50.0], "category": "worst" }
+      ]
+    },
+  
+    "winter_deep": {
+      "id": "winter_deep",
+      "season_ko": "겨울 쿨톤",
+      "name_ko": "겨울 딥",
+      "name_en": "Deep Winter",
+      "characteristics": { "dominant": "Deep", "secondary": "Cool" },
+      "keywords_ko": ["강렬함", "시크함", "모던함", "도도함", "카리스마"],
+      "description_ko": "겨울 타입 중 가장 어둡고 깊이감 있는 톤입니다. 블랙을 가장 잘 소화하며, 블랙이 섞인 듯한 저명도의 짙은 컬러들이 베스트입니다. 고급스럽고 도도하며, 카리스마 있는 이미지를 가집니다.",
+      "palette": [
+        { "name_ko": "다크 버건디", "name_en": "Dark Burgundy", "hex": "#4C0B1B", "rgb": [76, 11, 27], "lab": [28.0, 48.0, 39.0], "category": "point" },
+        { "name_ko": "딥 퍼플", "name_en": "Deep Purple", "hex": "#4B0082", "rgb": [75, 0, 130], "lab": [18.0, 45.0, -55.0], "category": "point" },
+        { "name_ko": "포레스트 그린", "name_en": "Forest Green", "hex": "#006400", "rgb": [0, 100, 0], "lab": [38.0, -43.0, 38.0], "category": "point" },
+        { "name_ko": "네이비", "name_en": "Navy", "hex": "#000080", "rgb": [0, 0, 128], "lab": [11.0, 30.0, -68.0], "category": "point" },
+        { "name_ko": "블랙", "name_en": "Black", "hex": "#000000", "rgb": [0, 0, 0], "lab": [0.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "아이시 화이트", "name_en": "Icy White", "hex": "#FFFFFF", "rgb": [255, 255, 255], "lab": [100.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "차콜 그레이", "name_en": "Charcoal Gray", "hex": "#696969", "rgb": [105, 105, 105], "lab": [44.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "파스텔 피치", "name_en": "Pastel Peach", "hex": "#FFE4B5", "rgb": [255, 228, 181], "lab": [90.0, 4.0, 28.0], "category": "worst" },
+        { "name_ko": "파스텔 옐로우", "name_en": "Pastel Yellow", "hex": "#F0E68C", "rgb": [240, 230, 140], "lab": [91.0, -5.0, 42.0], "category": "worst" },
+        { "name_ko": "올리브 그린", "name_en": "Olive Green", "hex": "#BDB76B", "rgb": [189, 183, 107], "lab": [73.5, -10.03, 41.2], "category": "worst" }
+      ]
+    },
+  
+    "winter_true": {
+      "id": "winter_true",
+      "season_ko": "겨울 쿨톤",
+      "name_ko": "겨울 쿨 (트루)",
+      "name_en": "True Winter",
+      "characteristics": { "dominant": "Cool", "secondary": "Bright" },
+      "keywords_ko": ["선명함", "강한 대비", "정석적인 겨울", "시크함", "차가움"],
+      "description_ko": "겨울 타입 중 가장 순수하게 차갑고 극적인 대비를 이룹니다. 순수한 블랙과 화이트를 중심으로 루비, 사파이어 같은 보석 색상들이 특징이며, 날카롭고 강렬한 이미지를 연출합니다.",
+      "palette": [
+        { "name_ko": "체리 레드", "name_en": "Cherry Red", "hex": "#E60044", "rgb": [230, 0, 68], "lab": [49.0, 73.0, 49.0], "category": "point" },
+        { "name_ko": "로열 블루", "name_en": "Royal Blue", "hex": "#0000CD", "rgb": [0, 0, 205], "lab": [20.0, 58.0, -84.0], "category": "point" },
+        { "name_ko": "에메랄드 그린", "name_en": "Emerald Green", "hex": "#008000", "rgb": [0, 128, 0], "lab": [46.0, -52.0, 48.0], "category": "point" },
+        { "name_ko": "푸시아", "name_en": "Fuchsia", "hex": "#FF00FF", "rgb": [255, 0, 255], "lab": [60.0, 98.0, -61.0], "category": "point" },
+        { "name_ko": "아이시 옐로우", "name_en": "Icy Yellow", "hex": "#FFFF00", "rgb": [255, 255, 0], "lab": [97.0, -22.0, 95.0], "category": "point" },
+        { "name_ko": "트루 블랙", "name_en": "True Black", "hex": "#000000", "rgb": [0, 0, 0], "lab": [0.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "트루 화이트", "name_en": "True White", "hex": "#FFFFFF", "rgb": [255, 255, 255], "lab": [100.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "실버", "name_en": "Silver", "hex": "#C0C0C0", "rgb": [192, 192, 192], "lab": [77.0, 0.0, 0.0], "category": "base" },
+        { "name_ko": "코랄", "name_en": "Coral", "hex": "#FF7F50", "rgb": [255, 127, 80], "lab": [69.0, 47.0, 48.0], "category": "worst" },
+        { "name_ko": "골드", "name_en": "Gold", "hex": "#DAA520", "rgb": [218, 165, 32], "lab": [69.0, 12.0, 68.0], "category": "worst" }
+      ]
+    }
+}
+  

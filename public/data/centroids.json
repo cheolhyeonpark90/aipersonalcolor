@@ -1,0 +1,14 @@
+{
+    "spring_bright": { "l": 65, "c": 55, "h": 80 },
+    "spring_light": { "l": 78, "c": 35, "h": 100 },
+    "spring_true": { "l": 70, "c": 45, "h": 95 },
+    "summer_light": { "l": 78, "c": 25, "h": 110 },
+    "summer_mute": { "l": 65, "c": 18, "h": 310 },
+    "summer_true": { "l": 70, "c": 20, "h": 290 },
+    "autumn_mute": { "l": 60, "c": 25, "h": 70 },
+    "autumn_deep": { "l": 45, "c": 30, "h": 75 },
+    "autumn_true": { "l": 55, "c": 35, "h": 85 },
+    "winter_deep": { "l": 45, "c": 35, "h": 330 },
+    "winter_bright": { "l": 60, "c": 50, "h": 325 },
+    "winter_true": { "l": 55, "c": 40, "h": 315 }
+  }
