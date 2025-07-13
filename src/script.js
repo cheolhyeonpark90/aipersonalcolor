@@ -135,7 +135,7 @@ function classifyPersonalColor(skinColorLCH) {
 }
 
 /**
- * 🎨 Step 5: 최종 결과 렌더링 함수 (요청하신 최종 디자인)
+ * 🎨 Step 5: 최종 결과 렌더링 함수
  */
 
 function renderChoiceUI(results, imageSrc) {
@@ -143,7 +143,6 @@ function renderChoiceUI(results, imageSrc) {
     const firstMatchRate = Math.max(0, 100 - first.distance * 1.5).toFixed(1);
     const secondMatchRate = Math.max(0, 100 - second.distance * 1.5).toFixed(1);
     
-    // 후보 카드를 생성하는 함수 (고급진 UI 최종 버전)
     const createChoiceCard = (result, matchRate) => {
         const escapedResult = JSON.stringify(result).replace(/'/g, '&apos;');
         return `
@@ -291,12 +290,21 @@ async function handleShare(action) {
 // Step 6: 이벤트 리스너 및 초기화 함수 실행
 // -------------------------------------------------------------
 uploadButton.addEventListener('click', async () => {
+    // 💥💥💥 수정된 로직 💥💥💥
     if (!isModelLoaded) {
         showLoading('AI 모델을 처음으로 준비하고 있습니다...');
-        await loadModels();
-        hideLoading();
-    }
-    if (isModelLoaded) {
+        try {
+            await loadModels(); // 모델 로딩을 기다립니다.
+            // 로딩이 완료된 후, 바로 파일 입력을 클릭합니다.
+            fileUpload.click(); 
+        } catch (error) {
+            console.error('모델 로딩 중 에러:', error);
+            alert('모델을 준비하는 데 실패했습니다. 다시 시도해주세요.');
+        } finally {
+            hideLoading();
+        }
+    } else {
+        // 모델이 이미 로드되었다면, 바로 파일 입력을 클릭합니다.
         fileUpload.click();
     }
 });
